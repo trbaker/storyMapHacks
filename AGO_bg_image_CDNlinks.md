@@ -1,4 +1,4 @@
-#New organization homepage (2021+)
+# New organization homepage (2021+)
 
 Yellow:
 https://cdn-a.arcgis.com/cdn/19F3F95/js/arcgisonline/img/homepage_background-5.jpg
