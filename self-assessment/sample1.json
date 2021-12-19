@@ -3,6 +3,5 @@
 	"type": "rich",
 	"HTML": "<b>TESTING</b>",
 	"width": 300,
-	"height": 300,
-	"title": "this is coming from the JSON doc",
+	"height": 300
 }
