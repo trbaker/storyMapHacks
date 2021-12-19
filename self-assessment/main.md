@@ -1,3 +1,3 @@
 # A placeholder with test code
 
-https://trbakr.github.io/storyMapHacks/assessment/main.md
+https://trbaker.github.io/storyMapHacks/self-assessment/main.md
