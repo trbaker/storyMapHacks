@@ -20,9 +20,11 @@
     <form>
       Question: <textarea id=q name=q onkeyup="document.getElementById('qbox').innerHTML='q='+q.value;"></textarea><br /><br />
       <br />
-      Response 1: <input type=text id=r1><br>
-      Teacher's response to student for selecting response 1. Please include the word 'correct' or 'incorrect' followed by a brief explanation.<br>
-      <input type="text" id=r1f><br />
+      Response 1: <textarea id=r name=r onkeyup="document.getElementById('rbox').innerHTML='r1='+r.value;"></textarea><br /><br />
+      <br />
+      Feedback on response 1: <textarea id=rf name=rf onkeyup="document.getElementById('rfbox').innerHTML='rf1='+rf.value;"></textarea><br /><br />
+      <br />
+      
       <br />
       
       </form>
@@ -32,7 +34,7 @@
       <i>Copy the long URL below and paste it into an embed widget in your StoryMap.</i><br /><br />
       <br /><br /><br />
       
-      <span id=fixed>https://node5137.com/quizitem/item.cgi?</span><span id=qbox name=qbox></span>
+      <span id=fixed>https://node5137.com/quizitem/item.cgi?</span><span id=qbox name=qbox></span><span id=rbox name=rbox></span><span id=rfbox name=rfbox></span>
       
       </td></tr></table>
   </body>
