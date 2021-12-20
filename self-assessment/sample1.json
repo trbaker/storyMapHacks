@@ -1,7 +1,7 @@
 {
 	"version": "1.0",
 	"type": "rich",
-	"HTML": "<b>TESTING</b>",
+	"html": "<b>TESTING</b>",
 	"width": 300,
 	"height": 300
 }
