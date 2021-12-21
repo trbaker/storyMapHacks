@@ -18,7 +18,7 @@
   
     
     <form>
-      Question: <textarea id=q name=q onkeyup="document.getElementById('qbox').innerHTML='q='+q.value;"></textarea><br /><br />
+      Question: <textarea id=q name=q onkeyup="document.getElementById('qbox').innerHTML='q='+encodeURIComponent(q.value);"></textarea><br /><br />
       <br />
       Response 1: <textarea id=r1 name=r1 onkeyup="document.getElementById('r1box').innerHTML='&r1='+r1.value;"></textarea><br />
       Feedback on response 1: <textarea id=r1f name=r1f onkeyup="document.getElementById('r1fbox').innerHTML='&r1f='+r1f.value;"></textarea><br /><br />
