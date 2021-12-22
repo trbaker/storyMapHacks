@@ -14,11 +14,27 @@
             word-wrap: break-word; /* Internet Explorer 5.5+ */
           }
     </style>
+<script>
+ function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("qbox") + document.getElementById("r1box");
+
+  /* Select the text field */
+  copyText.select(); 
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+    </script>
   </head>
   <body bgcolor="lightgray"><font face='verdana,arial' size="-1">
     <table border=1 padding=10><tr><td width="500">
       <img src="500wide.jpg">
-    <h2>Create a Storymap Self-assessment Item v96</h2>
+    <h2>Create a Storymap Self-assessment Item v97</h2>
     
     <p>
       Create a self-assessment item for embedding in a storymap's embed widget.  The self-assessment item presents a question
@@ -45,6 +61,7 @@
     </td>
     <td style="margins: 5px;" valign="top" width="500" class="flow">
       <br /><br /><b>Copy the long URL below and paste it into an embed widget in your StoryMap.</b><br />
+      <button onclick="myFunction()">Copy text</button>
       <br />
       <br /><span id="fixed" class="flow">https://quiz.geo.education/item.cgi?</span><span id=qbox class="flow" name=qbox></span><span id=r1box class="flow" name=r1box></span><span id=r1fbox name=r1fbox class="flow"></span><span id=r2box name=r2box class="flow"></span><span id=r2fbox name=r2fbox class="flow"></span><span id=r3box name=r3box class="flow"></span><span id=r3fbox name=r3fbox class="flow"></span><span id=r4box name=r4box class="flow"></span><span id=r4fbox name=r4fbox class="flow"></span>
       
