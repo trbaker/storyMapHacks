@@ -17,7 +17,7 @@
 <script>
  function myFunction() {
   /* Get the text field */
-  var copyText = document.getElementById("qbox").innerHTML ++ document.getElementById("r1box").innerHTML;
+  var copyText = document.getElementById("qbox").value ++ document.getElementById("r1box").innerHTML;
 
   /* Select the text field */
   copyText.select(); 
@@ -34,7 +34,7 @@
   <body bgcolor="lightgray"><font face='verdana,arial' size="-1">
     <table border=1 padding=10><tr><td width="500">
       <img src="500wide.jpg">
-    <h2>Create a Storymap Self-assessment Item v972</h2>
+    <h2>Create a Storymap Self-assessment Item v973</h2>
     
     <p>
       Create a self-assessment item for embedding in a storymap's embed widget.  The self-assessment item presents a question
@@ -46,7 +46,7 @@
     <form>
       Question: <textarea id=q name=q onkeyup="document.getElementById('qbox').innerHTML='q='+encodeURIComponent(q.value);"></textarea><br /><br />
       <br />
-      Response 1: <textarea id=r1 name=r1 onkeyup="document.getElementById('qbox').innerHTML='&r1='+encodeURIComponent(r1.value);"></textarea><br />
+      Response 1: <textarea id=r1 name=r1 onkeyup="document.getElementById('rbox').innerHTML='&r1='+encodeURIComponent(r1.value);"></textarea><br />
       Feedback on response 1: <textarea id=r1f name=r1f onkeyup="document.getElementById('r1fbox').innerHTML='&r1f='+encodeURIComponent(r1f.value);"></textarea><br /><br />
 
       Response 2: <textarea id=r2 name=r2 onkeyup="document.getElementById('r2box').innerHTML='&r2='+encodeURIComponent(r2.value);"></textarea><br />
