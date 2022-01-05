@@ -1,0 +1,1 @@
+# Notes on using ArcGIS Survey123 to create self-assessment items in Storymaps.
