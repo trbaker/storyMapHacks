@@ -9,14 +9,14 @@
          </style>
    </head>
    <body>
-      <H2>Public Storymap Finder</h2>
+      <H2>Public Storymap Finder .07</h2>
                   
-      <form target="sec" method="get" action="https://education.maps.arcgis.com/home/search.html?focus=applications-storymap&restrict=false">
+      <form target="sec" method="get" action="https://education.maps.arcgis.com/home/search.html">
          Search term(s): <input type="text" name="q"><br />
          <input type="hidden" name="focus" value="applications-storymap">
           <input type="hidden" name="restrict" value="false">
-         <input type="hidden" name="sortOrder" value="desc">
          Order results by: <select name="sortField"><option value="numviews">Popularity/Views</option><option value="relevance" selected>Relevance</option></select>
+         <input type="hidden" name="sortOrder" value="desc">
          <br />
          <input type="submit" value="Find Storymaps">
       </form>
@@ -25,9 +25,8 @@
 <font size="-2">
 This script uses the built-in search tools of ArcGIS Online. Filters and sorting have been pre-set for your convenience. Email questions to tbaker@esri.com
 <br /><br />
-   Search tool URL: 
-      </font>
-      <font size="-1">
+   Search tool URL: <br />
+
          <a href="https://trbaker.github.io/storyMapHacks/search/" target="_parent">https://trbaker.github.io/storyMapHacks/search/</a>
    
    </body>
