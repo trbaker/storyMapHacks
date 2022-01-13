@@ -1,56 +1,11 @@
 <HTML>
    <head>
       <title>ArcGIS StoryMap Search tool</title>
-      <style>
-         body {
-            background-color: white;
-            font-family: verdana,arial;
-            }
-         div.box2 {
-           position: fixed;
-           left: 325px;
-           top: 10px;
-           border: 1px solid #73AD21;
-           width: 900px;
-           height: 600px;
-         }
-         div.box1 {
-           position: relative;
-           left: 10px;
-           top: 8px;
-            margins: 2px;
-           border: 1px solid #73AD21;
-           width: 300px;
-           height: 600px;
-         }
-         </style>
-   </head>
 
-   <body>
-   <div class="box1">
-      <H2>Public Storymap Finder</h2>
-                  
-      <form action="https://education.maps.arcgis.com/home/search.html" target="_new">
-         Search term(s): <input type="text" name="q"><br />
-         <input type="hidden" name="focus" value="applications-storymap">
-          <input type="hidden" name="restrict" value="false">
-         Order results by: <select name="sortField"><option value="numviews">Popularity/Views</option><option value="relevance" selected>Relevance</option></select>
-         <input type="hidden" name="sortOrder" value="desc">
-         <br /><br />
-         <input type="submit" value="Find Storymaps (in new window)">
-      </form>
-         
- <br /><br /><br />
-<font size="-2">
-This script uses the built-in search tools of ArcGIS Online. Filters and sorting have been pre-set for your convenience. Email questions to tbaker@esri.com
-<br /><br />
-   Search tool URL: <br />
-
-         <a href="https://trbaker.github.io/storyMapHacks/search/">https://trbaker.github.io/storyMapHacks/search/</a>
-   </div>
-   <div class="box2">
-    <iframe src="https://education.maps.arcgis.com/home/search.html?q=education&focus=applications-storymap&restrict=false&sortField=numviews" width="900" height="600"></iframe>
-    
-   </div>
+  <frameset cols="250,*">
+  <frame src="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset" />
+  <frame src="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame" />
+</frameset>
+      
    </body>
 </HTML>
