@@ -9,4 +9,4 @@
 
 
 Links
-1. [ArcGIS 3VR - 360VR - Gallery](https://www.arcgis.com/apps/360vr/index.html)
+1. [ArcGIS 360VR Gallery](https://www.arcgis.com/apps/360vr/index.html)
