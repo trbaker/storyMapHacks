@@ -1,6 +1,6 @@
 To be included in the StoryMap Expeditions listing at https://esriurl.com/expeditions, your expedition must meet the basic criteria:
 1. Use a StoryMap to organize and initially present the expedition.
-2. Use multiple 360 degree still images with annotation and linking.
+2. Use multiple 360 degree images (not video) with annotation and linking.
 3. The expedition should create a virtual field trip of a place or phenomenon that a K12 classroom would reasonable consider to be a destination.
 4. All expeditions should be age-appropriate.
 
