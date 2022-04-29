@@ -1,0 +1,43 @@
+
+<html>
+<head>
+
+
+<script language="JavaScript"><!--
+function function1() {
+  var badge = document.getElementById("box1").value;
+  var url = 'https://us-central1-esri-related.cloudfunctions.net/storymap_standards?url=' + badge;
+  var el = document.getElementById('iframe1');
+  el.src = url;
+}
+//--></script>
+</head>
+  <body>
+	If you find an 
+	error or encounter a problem, please send a note to tbaker@esri.com .
+		
+<div style="width: 700px;"><font size="-1">
+<br />	
+<br />
+Enter the StoryMap Id (e.g. d51f8ab5d4b84a8d8208a369fad5f520).  
+</div>
+<table width=700><tr><td>		
+
+<center>
+	<form name="form1" onSubmit="event.preventDefault(); function1();">
+Storymap id: <input type="text" id="box1" name="box1" onkeydown = "if (event.keyCode == 13) document.getElementById('myButton').click()"/>
+<input type='button' id="myButton" value="Go" onclick="javascript:function1();"/>
+ </form>
+</center>
+	</td></tr></table>
+
+
+<iframe id="iframe1" name="iframe1"
+	width="700"
+	height="300"
+	src="storymap_readability.html">
+</iframe>
+<br><br>
+
+</body>
+</html>
