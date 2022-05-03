@@ -14,6 +14,16 @@
             font-size: 7pt;
           }
     </style>
+    <script>
+                function copyDivToClipboard() {
+                    var range = document.createRange();
+                    range.selectNode(document.getElementById("fixed"));
+                    window.getSelection().removeAllRanges(); // clear current selection
+                    window.getSelection().addRange(range); // to select text
+                    document.execCommand("copy");
+                    window.getSelection().removeAllRanges();// to deselect
+                }
+ </script>
   </head>
   <body><font face='verdana,arial' size="-1">
     <table border=0 margin=5 padding=10><tr><td>
@@ -52,7 +62,7 @@
       
       </td></tr></table>
 
-    <br /><br />
-    <a href="https://trbaker.github.io">Just another misfit toy.</a>
+    <br /><br /><br />
+    <a href="https://trbaker.github.io">Home</a>
     </body>
 </html>
