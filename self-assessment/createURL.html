@@ -17,7 +17,7 @@
     <script>
                 function copyDivToClipboard() {
                     var range = document.createRange();
-                    range.selectNode(document.getElementById("fixed")) + range.selectNode(document.getElementById("qbox"));
+                    range.selectNode(document.getElementById("fixed"));
                     window.getSelection().removeAllRanges(); // clear current selection
                     window.getSelection().addRange(range); // to select text
                     document.execCommand("copy");
